@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ShoppingCartWithBackend.Backend.Cart
+namespace ShoppingCartWithBackend.Models
 {
     public class ShoppingCart
     {
@@ -15,6 +15,6 @@ namespace ShoppingCartWithBackend.Backend.Cart
         public string Name { get; set; }
         public int Quantity { get; set; }
         public decimal Price { get; set; }
-        public string Image { get; set; }        
+        public string Image { get; set; }
     }
 }

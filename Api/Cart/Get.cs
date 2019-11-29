@@ -4,9 +4,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using ShoppingCartWithBackend.Backend.Domain;
+using ShoppingCartWithBackend.Data;
 
-namespace ShoppingCartWithBackend.Backend.Cart.Queries
+namespace ShoppingCartWithBackend.Api.Cart
 {
     public class Get
     {

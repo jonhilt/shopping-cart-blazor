@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using ShoppingCartWithBackend.Backend.Cart;
-using ShoppingCartWithBackend.Backend.Domain;
+using ShoppingCartWithBackend.Data;
+using ShoppingCartWithBackend.Models;
 using System.Collections.Generic;
 using System.Linq;
 

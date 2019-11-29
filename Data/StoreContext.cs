@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using ShoppingCartWithBackend.Backend.Cart;
+using ShoppingCartWithBackend.Models;
 
-namespace ShoppingCartWithBackend.Backend.Domain
+namespace ShoppingCartWithBackend.Data
 {
     public class StoreContext : DbContext
     {
@@ -17,7 +17,7 @@ namespace ShoppingCartWithBackend.Backend.Domain
                 .Entity<ShoppingCart>()
                 .HasMany(x => x.LineItems)
                 .WithOne()
-                .OnDelete(DeleteBehavior.Cascade);             
+                .OnDelete(DeleteBehavior.Cascade);
 
             base.OnModelCreating(modelBuilder);
         }
